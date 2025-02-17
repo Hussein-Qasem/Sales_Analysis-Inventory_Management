@@ -1,26 +1,45 @@
-Project Description
+# Sales Analysis and Inventory Management Project
 
-Name: Sales Analysis and Inventory Management
+## Project Overview
+This project combines Python data engineering with Excel analysis to create a comprehensive sales and inventory management solution.
 
-Problem Statement: 
+## Workflow
+1. **Data Engineering (Python)**: Cleaned and transformed raw sales data
+2. **Exploratory Data Analysis (Python)**: Initial data exploration and pattern identification  
+3. **Detailed Analysis (Excel)**: Deep dive analysis using pivot tables and Excel formulas
+4. **Dashboard Creation**: Visual representation of key metrics and insights
 
-The challenges of optimizing operations in the retail industry have become increasingly complex as businesses strive to meet consumer demands and maintain profitability. Inaccurate sales forecasts can lead to issues such as overstocking, understocking, and missed revenue opportunities. These challenges highlight the need for effective tools and strategies to predict sales trends accurately.
+## Key Technologies
+- **Python**: Used for data cleaning, transformation, and initial EDA
+  - Libraries: Pandas, NumPy, Matplotlib
+- **Excel**: Used for in-depth analysis and dashboard creation
+  - Features: Pivot Tables, VLOOKUP, Data Visualization
 
-The Store Sales Forecasting Dataset provides an opportunity to address these challenges by analyzing historical sales data from various stores. By exploring this data, we can uncover patterns, seasonal trends, and other factors that influence sales performance. These insights can then be utilized to develop strategies for improving inventory management, refining pricing tactics, and allocating resources more efficiently, ultimately enhancing the company's operational success.
+## Key Findings
 
-Possible Impact of Your Analysis:
+- **Q4 sales spikes** indicate strong end-of-year performance.
+- **Consumer segment** drives 52% of sales but has the **lowest profit per order**.
+- **Corporate customers** generate the **highest total and average profit**.
+- **Central region** has the **highest loss-making orders**, needing intervention.
+- **West region** has a **balanced profit distribution**, making it the most stable.
+- **Furnishings and Chairs** have **steady profits**, while **Tables generate losses**.
+- **Discounts above 20% significantly reduce profit margins** (-0.89 correlation).
+- **Tables receive the highest discount (26%) but have the lowest profit ratios**.
+- **Just-in-time procurement** is needed for Q1 and Q2 due to lower demand.
+- **Flexible supplier contracts** are recommended to adjust stock by season.
+- **Reducing aggressive discounts** on loss-making products can improve profits.
+- **Stock levels should align with seasonal demand to avoid stockouts**.
 
-Analyzing this data could provide the company with actionable insights to improve decision-making processes. Accurate forecasts can help in avoiding overstocking or understocking, reducing waste, and ensuring product availability. Additionally, understanding the sales patterns may enable better promotional strategies and resource planning, leading to enhanced customer satisfaction and increased revenue. Insights from the analysis could also highlight high-performing stores and products, aiding in strategic planning.
-Dataset(s):
-Link: Store Sales Forecasting Dataset
-https://www.kaggle.com/datasets/tanayatipre/store-sales-forecasting-dataset
+## File Structure
+- `/python_scripts/`: Contains data engineering and analysis scripts
+- `/Original and Cleaned Data/`: Contains the data before and after the cleaning and engineering
+- `/EDA/`: Contains a Jupyter notebook and Excel workbook for exploratory data analysis.
+- `/outputs/`: Contains visualizations and reports generated
 
-Store Sales Forecasting is a dataset designed for retail analysis, containing 21 columns of comprehensive information. Some features are:
-•	Order Information
-•	Ship Information
-•	Customer Information
-•	Location Informatioin
-•	Product Information
-•	Sales Information
+## How to Use This Repository
+1. Review the Python scripts to understand the data cleaning process
+2. Examine the Excel files to see the analysis methodology
+3. Check the outputs folder for key visualizations and findings
 
-License: The dataset is publicly available for analysis and research purposes through Kaggle’s platform.
+## Contact
+Hussein Qasem - H.qasem72@outlook.com - https://www.linkedin.com/in/hussein-qasem
