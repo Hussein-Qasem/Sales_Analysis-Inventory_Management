@@ -1,0 +1,6 @@
+Libraries:
+
+Pandas
+Matplotlib
+Seaborn
+plotly.express
