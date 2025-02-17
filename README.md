@@ -11,9 +11,10 @@ This project combines Python data engineering with Excel analysis to create a co
 
 ## Key Technologies
 - **Python**: Used for data cleaning, transformation, and initial EDA
-  - Libraries: Pandas, NumPy, Matplotlib
+  - Libraries: Pandas, Matplotlib, Seaborn
 - **Excel**: Used for in-depth analysis and dashboard creation
   - Features: Pivot Tables, VLOOKUP, Data Visualization
+- **Tableau**: Creating interactive dashboard
 
 ## Key Findings
 
